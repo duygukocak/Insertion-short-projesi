@@ -1,3 +1,4 @@
+
 # Insertion-short-projesi
 www.patika.dev
 
@@ -17,16 +18,24 @@ www.patika.dev
 
 **2.** Big-O gösterimini yazınız.
 
-=O(n^2)
+Best case: O(n)
+
+Average case: O(n^2)
+
+Worst case: O(n^2)
 
 **3.** Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
 
-average case:18
-
-worst case:27
-
-best case:2
-
-**4.** Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
+**Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.**
 
 18 sayısı average case kapsamındadır.
+
+**[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.**
+
+[**2**,3,5,8,**7**,9,4,15,6]
+
+[2,**3**,5,8,7,9,4,15,6]
+
+[2,3,**4**,8,7,9,**5**,15,6]
+
+[2,3,4,**5**,7,9,**8**,15,6]
